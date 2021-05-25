@@ -1,0 +1,19 @@
+%Materia Calculo Integral 
+%Funcion Primitiva
+%Nombre de la Alumna Vanessa Abigail Martinez Alpizar
+%Correo Electronico abimartinez100817@gmail.com
+%Grupo 3201
+
+clc
+clear 
+syms x;
+fx:input ("Ingrese la funcion")
+funcion = inline (char (fx))
+a = input ("Desde limite interior")
+b = input ("Hasta b limite superior")
+resultado = 2*(b^3)/3 - 3*(a^2)/2  - 2*(-b^3)/3 - 3*(-a^2)/2
+
+x = -3:0.2:3;
+f = x 
+plot (f,x);
+title ("Representacion")
