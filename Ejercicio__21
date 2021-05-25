@@ -1,0 +1,19 @@
+%Materia Calculo Integral 
+%Funcion Primitiva
+%Nombre de la Alumna Vanessa Abigail Martinez Alpizar
+%Correo Electronico abimartinez100817@gmail.com
+%Grupo 3201
+
+clc
+clear 
+syms x;
+fx:input ("Ingrese la funcion")
+funcion = inline (char (fx))
+a = input ("Desde limite interior")
+b = input ("Hasta limite superior")
+resultado = (b^2)/2 + (a^2)/2 
+
+x = -4:0.2:2;
+f = x 
+plot (f,x);
+title ("Representacion")
