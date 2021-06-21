@@ -1,0 +1,19 @@
+%Materia Calculo Integral 
+%Teorema Fundamental del Calculo 
+%Nombre de la Alumna Vanessa Abigail Martinez Alpizar
+%Correo Electronico abimartinez100817@gmail.com
+%Grupo 3201
+clc 
+clear 
+
+syms x;
+fx= input("INGRESA LA FUNCION :")
+funcion = inline (char(fx))
+a= input("INGRESE EL VALOR DEL LIMITE INFERIOR "); 
+b= input("INGRESE EL VALOR DEL LIMITE SUPERIOR ");
+resultado= (2*b)(sqrt(2*b))/3 + ( 3*b*2)/4 - (2*a)(sqrt(2*a))/3 + ( 3*a*2)/4
+
+x = 0:0.2:8;
+f=x;
+plot(f,x); 
+bar(f,x,"r")
