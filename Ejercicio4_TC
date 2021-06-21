@@ -1,0 +1,19 @@
+%Materia Calculo Integral 
+%Teorema Fundamental del Calculo 
+%Nombre de la Alumna Vanessa Abigail Martinez Alpizar
+%Correo Electronico abimartinez100817@gmail.com
+%Grupo 3201
+clc 
+clear 
+
+syms y;
+fy= input("INGRESA LA FUNCION :")
+funcion = inline (char(fy))
+a= input("COLOCA EL VALOR DEL LIMITE INFERIOR "); 
+b= input("COLOCA EL VALOR DEL LIMITE SUPERIOR ");
+resultado= (-1/b - 2/sqrt(b)) - (-1/a - 2/sqrt(a))
+
+x= 1:0.2:4;
+f=x;
+plot(f,x);
+bar(f,x,"r")
