@@ -1,0 +1,12 @@
+%Tema : Derivadas y Demostrasiones 
+%Materia: Calculo Integral 
+% Nombre de la Alumna: Vanessa Abigail Martínez Alpízar (vanessaAbigail) abimartinez100817@gmail.com
+%Grupo:3201
+
+clear
+syms x;
+f=(x^2);
+g= ( 4 * x);
+Suma= diff(f) + diff(g)
+Multiplicacion= diff(x^2 * 4 * x)
+Division= diff( f / g)
