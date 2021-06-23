@@ -1,0 +1,13 @@
+%Tema : Limites
+%Materia: Calculo Integral 
+% Nombre de la Alumna: Vanessa Abigail Martínez Alpízar (vanessaAbigail) abimartinez100817@gmail.com
+%Grupo:3201
+% Rango de -3..3 en i = 0.1
+ x = [-3: 1 :3]; 
+% Valor de esta funcion 
+ y= 10 - x
+% Dibujar x, y
+ plot(x , y);
+% Titulo ("f (x)=y=((10-(x)))
+% Etiqueta para x
+ xlabel ( "x");
