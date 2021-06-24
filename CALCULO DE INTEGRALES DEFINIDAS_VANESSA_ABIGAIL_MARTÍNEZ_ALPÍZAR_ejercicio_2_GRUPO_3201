@@ -1,0 +1,22 @@
+%Tema:CALCULO DE INTEGRALES DEFINIDAS 
+%Materia: Calculo Integral 
+%Alumna Vanessa Abigail Martínez Alpízar (vanessaAbigail) abimartinez100817@gmail.com
+%Grupo:3201
+% Integrales definidas F(x)= (57.473)*x^2
+syms x;
+fx= input("COLOCA LA FUNCION :")
+funcion= inline (char(fx))
+a= input("COLOCA  EL LIMITE INFERIOR a: "); 
+b= input("COLOCA EL LIMITE SUPERIOR b: ");
+VF= ((57.473*b^(3)))/3 
+
+VI=input("COLOCA TU VELOCIDAD INICIAL : ")
+TS=input("COLOCA TU TIEMPO EN SEGUNDOS : ")
+
+dp=(VI+VF)/2*(TS)
+
+m=dp/3.28
+
+x = 0:0.2:7;
+f=x;
+plot(f,x);
