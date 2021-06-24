@@ -1,0 +1,28 @@
+%Tema: CALCULO DE INTEGRALES DEFINIDAS 
+%Materia: Calculo Integral 
+%Alumna Vanessa Abigail Martínez Alpízar (vanessaAbigail) abimartinez100817@gmail.com
+%Grupo:3201
+% Integrales definidas F(x)= sqrt(x)+x
+syms x;
+fx= input("COLOCA LA FUNCION :")
+funcion= inline (char(fx))
+a= input("COLOCA EL LIMITE INFERIOR "); 
+b= input("COLOCA EL LIMITE SUPERIOR ");
+V = (2*(b*sqrt(b))/3 + b^2/2) - (2*(a*sqrt(a))/3 + a^2/2)
+
+c=input("COLOCA LA HORA QUE PIDE EL PROBLEMA :");
+Dm1=V*c
+
+d=input("COLOCA LA HORA QUE PIDE EL PROBLEMA :");
+Dm2=V*d
+
+e=input("COLOCA LA HORA QUE PIDE EL PROBLEMA :");
+Dm3=V*e
+
+Dm=(Dm1)*(1609.344)
+Dms=(Dm2)*(1609.344)
+Dm=(Dm3)*(1609.344)
+title("Modelo Matematico de Temperatura");
+x = 1:0.2:4;
+f=x;
+plot(f,x);
