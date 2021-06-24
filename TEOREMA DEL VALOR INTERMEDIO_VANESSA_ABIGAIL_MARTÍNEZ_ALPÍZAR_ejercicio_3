@@ -1,0 +1,19 @@
+%Tema:TEOREMA DEL VALOR INTERMEDIO 
+%Materia: Calculo Integral 
+%Alumna Vanessa Abigail Martínez Alpízar (vanessaAbigail) abimartinez100817@gmail.com
+%Grupo:320
+
+syms x;
+fx= input("COLOCA LA FUNCION :")
+funcion = inline (char(fx))
+a= input("COLOCA EL VALOR DEL LIMITE INFERIOR "); 
+b= input("COLOCA EL VALOR DEL LIMITE SUPERIOR ");
+k= input ("COLOCA LA CONSTANTE DE K ");
+resultado1= 3*b-5
+resultado2= 3*a-5
+total= resultado1< k < resultado1
+fprintf( " El numero 1 esta entre los intervalos de -2 a 4");
+
+x = -2:0.2:4;
+f=x;
+plot(f,x);
