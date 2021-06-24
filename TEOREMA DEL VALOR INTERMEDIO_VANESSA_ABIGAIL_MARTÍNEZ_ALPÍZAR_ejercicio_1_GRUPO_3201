@@ -1,7 +1,7 @@
 %Tema:TEOREMA DEL VALOR INTERMEDIO 
 %Materia: Calculo Integral 
 %Alumna Vanessa Abigail Martínez Alpízar (vanessaAbigail) abimartinez100817@gmail.com
-%Grupo:320
+%Grupo:3201
 
 syms x;
 fx= input("COLOCA LA FUNCION :")
